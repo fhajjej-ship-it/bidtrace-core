@@ -10,6 +10,8 @@ certification. Insufficient evidence remains **Unknown**.
 paid Mac app are proprietary and excluded. This source tree includes no model
 weights, customer documents, private benchmark answers or Codex adapter.
 
+**Want the maintained Mac app? [Request a paid Mac pilot](#request-a-paid-mac-pilot).**
+
 ## Start here: supported hardware and models
 
 This developer CLI currently supports **our pinned local model stack on an
@@ -211,6 +213,23 @@ see [RELEASE-NOTES.md](RELEASE-NOTES.md) for its measured CLI result. Neither
 hosted inference nor the development Codex adapter is included in this release.
 The maintained Mac app is a separate commercial product. See
 [CHANGELOG.md](CHANGELOG.md) for the source changes in this version.
+
+## Request a paid Mac pilot
+
+Small IT suppliers and bid consultancies can enquire about an **assisted paid
+pilot of the proprietary BidTrace Mac app**, with a graphical local review
+workspace. The open-source core remains free under MPL-2.0.
+
+**[Message Farouk on X (@Faroucky_ha) to request a paid Mac pilot](https://x.com/Faroucky_ha).**
+Start your message with **“BidTrace Mac pilot”** and include your role/company,
+a short description of the tender-review workflow you want to test, and your
+Mac model, memory and macOS version.
+
+Pilot fit, scope and pricing are discussed and agreed separately; an enquiry
+does not commit you to payment. Keep your initial message high-level: do not
+attach confidential tender documents, supplier proposals or credentials to
+X messages or public GitHub issues. The Mac app and installer are not included
+in this repository or its release downloads.
 
 ## Feedback and security
 
