@@ -1,0 +1,28 @@
+# SPDX-License-Identifier: MPL-2.0
+[build-system]
+requires = ["setuptools>=84,<85"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bidtrace-core"
+version = "0.1.4"
+description = "Local source-bound tender analysis engine and CLI"
+readme = "README.md"
+license = "MPL-2.0"
+license-files = ["LICENSES/MPL-2.0.txt", "THIRD-PARTY-NOTICES.md"]
+requires-python = ">=3.12,<3.14"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+analysis = [
+  "fastapi>=0.115,<1", "uvicorn>=0.34,<1", "httpx>=0.28,<1", "pydantic>=2.10,<3",
+  "pypdf>=5,<7", "pypdfium2==5.14.0", "python-docx>=1.1,<2", "openpyxl>=3.1,<4",
+  "pillow>=11,<13", "langgraph>=1,<2", "langgraph-checkpoint-sqlite>=3,<4",
+  "langsmith>=0.4,<1", "fastembed>=0.7,<1", "numpy>=2,<3", "qdrant-client>=1.16,<1.17",
+  "torch>=2.6,<2.9", "transformers>=4.57,<4.58",
+]
+model-service = ["mlx-vlm==0.7.1; sys_platform == 'darwin' and platform_machine == 'arm64'"]
+
+[project.scripts]
+bidtrace-core = "bidtrace_core.cli:main"

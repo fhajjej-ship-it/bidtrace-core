@@ -1,0 +1,3 @@
+SYNTHETIC EXAMPLE — fictional supplier
+
+Our proposal includes a help desk Monday to Friday, 09:00 to 17:00. We monitor backups daily. This proposal does not specify a cloud backup recovery point objective.
